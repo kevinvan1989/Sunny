@@ -1,0 +1,112 @@
+.hide--desktop{
+    display: none;
+}
+
+h1{
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+header{
+    //height: 100vh;
+    background: url('../images/desktop/image-header.jpg') center center / cover;
+}
+
+#nav--top{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100vw;
+    padding: 0 50px;
+
+    h1{
+        margin: 0;
+    }
+}
+
+.nav--desktop{
+    width: auto;
+    position: relative;
+    top: 0;
+
+    & > ul{
+        display: flex;
+         li{
+             padding: 1rem 1.5rem;
+
+             &:hover{
+                margin: 0;
+
+             }
+         }
+    }
+
+    &.hide{
+        display: block;
+        background: none;
+    }
+}
+
+
+
+
+.nav--mobile::before{
+    display: none;
+}
+
+.services{
+    display: flex;
+    margin: 0;
+
+    &:first-child img{
+        order: 1
+    }
+
+    img{
+        width: 50%;
+    }
+
+    .white-box{
+        width: 50%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+}
+
+.overlay-text{
+    width: 50%;
+    float: left;
+    height: 400px;
+
+    img{
+        max-width: fit-content;
+    }
+}
+
+.cherry{
+    background: url('../images/desktop/image-graphic-design.jpg') top center / cover no-repeat;
+}
+
+.orange{
+    background: url('../images/desktop/image-photography.jpg') top center / cover no-repeat;
+}
+
+.testemionals{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#testimonials{
+    padding-top: 2rem;
+}
+
+#gallery{
+    width: 100%;
+
+    img{
+        width: 25%;     
+    }
+}

@@ -1,0 +1,135 @@
+.hide--desktop {
+  display: none;
+}
+
+h1 {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+header {
+  background: url("../images/desktop/image-header.jpg") center center/cover;
+}
+
+#nav--top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 100vw;
+  padding: 0 50px;
+}
+
+#nav--top h1 {
+  margin: 0;
+}
+
+.nav--desktop {
+  width: auto;
+  position: relative;
+  top: 0;
+}
+
+.nav--desktop > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav--desktop > ul li {
+  padding: 1rem 1.5rem;
+}
+
+.nav--desktop > ul li:hover {
+  margin: 0;
+}
+
+.nav--desktop.hide {
+  display: block;
+  background: none;
+}
+
+.nav--mobile::before {
+  display: none;
+}
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.services:first-child img {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.services img {
+  width: 50%;
+}
+
+.services .white-box {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.overlay-text {
+  width: 50%;
+  float: left;
+  height: 400px;
+}
+
+.overlay-text img {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.cherry {
+  background: url("../images/desktop/image-graphic-design.jpg") top center/cover no-repeat;
+}
+
+.orange {
+  background: url("../images/desktop/image-photography.jpg") top center/cover no-repeat;
+}
+
+.testemionals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#testimonials {
+  padding-top: 2rem;
+}
+
+#gallery {
+  width: 100%;
+}
+
+#gallery img {
+  width: 25%;
+}
+/*# sourceMappingURL=desktop.css.map */
